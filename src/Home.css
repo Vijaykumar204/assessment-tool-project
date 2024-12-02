@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .homebody1 {
+    /* background-image: url(image/backgroung.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+  } 
+  
+  .lo {
+    margin-right: 20px;
+  }
+  
+  .lo a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10%;
+  }
+  
+  .lo a:hover {
+    background-color: #45A29E;
+    border-radius: 10%;
+  }
+  
+  .contain {
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    backdrop-filter: blur(9px);
+  }
+  
+  .homepara_1 {
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #e4620a;
+  }
+  
+  .homepara_2 {
+    font-size: 20px;
+    padding-top: 3%;
+    font-family: 'Times New Roman', Times, serif;
+    color: whitesmoke;
+  }
+  
+  .homebotton {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .homepara a button:hover {
+    background-color: #45A29E;
+    color: white;
+  }
+  #loginid{
+    padding: 6px;
+    border-radius: 5px;
+  }
+button:hover{
+    background-color: #45A29E;
+    color: #ffffff;
+  }
+  #getstart {
+    background-color: #ffffff;
+  }
+  #getstart:hover{
+    background-color: #45A29E;
+    color: #ffffff;
+  }
+  #getstart1 {
+    background-color: #ffffff;
+    color: black;
+  }
+  #getstart1:hover{
+    background-color: #45A29E;
+    color: #ffffff;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .homebody1 {
+      /* background-image: url("image/mobile1.jpg");
+      background-repeat: no-repeat; */
+      /* background-size: cover; */
+      background-image:none;
+      background-color: rgb(0, 0, 0);
+      height: 900px;
+      
+      
+    }
+    .homebotton {
+      position: relative;
+      left: 18%;
+      top: 2%;
+    }
+    .homepara_1 {
+       color: #e4620a;
+      }
+  }
+
+
+
+  /* Custom Modal Styles */
+.custom-modal .modal-dialog {
+  max-width: 500px; /* Adjust width as needed */
+}
+
+.custom-modal .modal-content {
+  background: transparent; /* Hide the default background */
+  border: none; /* Remove the border */
+  box-shadow: none; /* Remove the shadow */
+}
+
+.custom-modal .modal-header,
+.custom-modal .modal-body,
+.custom-modal .modal-footer {
+  background: white; /* Set a background color for the modal content */
+}
+
+/* Optional: Adjust modal padding */
+.custom-modal .modal-body {
+  padding: 20px;
+}
+
+  

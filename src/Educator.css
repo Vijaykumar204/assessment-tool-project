@@ -1,0 +1,117 @@
+
+#headerbg{
+    background-color:#45A29E;
+}
+/* Educator.css */
+.navbar-collapse {
+    background-color: #45A29E; /* Set your desired background color */
+  }
+  
+  /* Optionally, you can also set the background color for the dropdown menu */
+  .dropdown-menu {
+    background-color: #45A29E; /* Set your desired background color */
+  }
+  
+#navicon{
+    color: white;
+}
+/* .naiicon_{
+    color: white;
+}
+.icon-item {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.icon {
+    font-size: 50px;
+    color: black;
+}
+.icon-text {
+    margin-top: 10px;
+    font-size: 16px;
+} */
+.card-custom {
+    background-color: #d3d3d3;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    margin: 20px 0;
+}
+.icon {
+    font-size: 80px;
+    color: black;
+    margin-bottom: 20px;
+}
+.btn-custom {
+    background-color: #4cafaf;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.btn-custom:hover {
+    background-color: #399999;
+}
+.card-custom2 {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    margin: 20px 10px;
+}
+.language-image {
+    width: 100px;
+    height: auto;
+    margin-bottom: 15px;
+}
+.language-name {
+    font-weight: bold;
+}
+
+
+.logout-pop{
+    width: 25%;
+     padding: 20px; 
+     background-color: white;
+      box-shadow: 1px 1px 10px black;
+      visibility: hidden;
+      position: relative;
+      top: -1150px;
+      left: 1000px;
+      height: 150px;
+
+}
+.logout-button1{
+    background-color: #45A29E; 
+    font-size: 10px; 
+    padding: 10px; 
+    color: whitesmoke;
+    width: 80px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+.logout-button2 {
+    background-color: #45A29E; 
+    font-size: 10px; 
+    padding: 10px; 
+    color: whitesmoke;
+    width: 80px;
+    float:right ;
+    margin-right: 40px;
+    margin-top: 5px;
+} 
+#navbarhover li a:hover{
+    
+    text-decoration: underline;
+}
+.dropdown:hover .dropdown-menu {
+display: block;
+}
+
+
